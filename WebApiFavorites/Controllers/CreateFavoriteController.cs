@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
 namespace WebApiFavorites.Controllers
 {
@@ -7,5 +6,6 @@ namespace WebApiFavorites.Controllers
     [ApiController]
     public class CreateFavoriteController : ControllerBase
     {
+
     }
 }

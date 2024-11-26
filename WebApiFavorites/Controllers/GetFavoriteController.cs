@@ -1,11 +1,13 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace WebApiFavorites.Controllers
+
+namespace WebApiFavorites.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class GetFavoriteController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class GetFavoriteController : ControllerBase
-    {
-    }
+   
+
+
 }
